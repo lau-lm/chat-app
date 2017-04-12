@@ -48,18 +48,11 @@
 	margin-right: 7px;
 }
 #liste .collection .collection-item{
-	-webkit-transition: background-color .3s ease-in;
-    -moz-transition: background-color .3s ease-in;
-    -o-transition: background-color .3s ease-in;
-    transition: background-color .3s ease-in;
+	-webkit-transition: all .6s ease-in;
+    -moz-transition: all .6s ease-in;
+    -o-transition: all .6s ease-in;
+    transition: all .6s ease-in;
 }
 #liste .collection .collection-item:hover{
 	background-color: #efefef; 
-}
-.more{
-	width: 300px;
-    margin: 0 auto;
-    display: block;
-}
-.more .material-icons{
 }

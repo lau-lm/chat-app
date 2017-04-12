@@ -23,7 +23,7 @@
 	<!-- begin navbar -->
 	<nav>
 		<div class="nav-wrapper">
-			<span class="badge"><i class="material-icons">forum</i> 5 messages</span>
+			<span class="badge"><i class="material-icons">chat</i> 5 messages</span>
 			<ul class="right hide-on-med-and-down">
 				<li><a href="#favorites"><i class="material-icons">favorite</i></a></li>
 				<li><a><i class="material-icons">refresh</i></a></li>
@@ -58,9 +58,6 @@
 			ac purus sit amet, aliquam pharetra mauris.
 		</p>
 
-
-
-
 		<!-- Actions -->
 		<span class="secondary-content">
 						<i class="material-icons favorite yellow-text text-darken-2">stars</i> 
@@ -69,7 +66,7 @@
 	</li>
 
 
-	<li class="collection-item avatar cyan lighten-5">
+	<li class="collection-item avatar">
 		<img src="http://codologic.com/forum/sites/default/assets/img/profiles/icons/54745d4530fac.png" alt="" class="circle">
 
 		<!--Date-->
@@ -77,8 +74,8 @@
 
 		<!-- Contenu -->
 		<p>
-			Lorem ipsum dolor sit amet, consectetur NodeJS adipiscing elit. Nam nec est nec massa auctor pretium. Proin tempor rutrum
-			arcu, eget blandit massa porta id. Nullam efficitur laoreet mauris, eu lobortis quam molestie et. Ut tellus nunc, convallis
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec est nec massa auctor pretium. Proin tempor rutrum arcu,
+			eget blandit massa porta id. Nullam efficitur laoreet mauris, eu lobortis quam molestie et. Ut tellus nunc, convallis
 			ac purus sit amet, aliquam pharetra mauris.
 		</p>
 
@@ -135,7 +132,7 @@
 
 
 
-	<li class="collection-item avatar cyan lighten-5">
+	<li class="collection-item avatar">
 		<img src="http://codologic.com/forum/sites/default/assets/img/profiles/icons/54745d4530fac.png" alt="" class="circle">
 
 		<!--Date-->
@@ -143,8 +140,8 @@
 
 		<!-- Contenu -->
 		<p>
-			Lorem ipsum dolor sit amet, VueJS consectetur adipiscing elit. Nam nec est nec massa auctor pretium. Proin tempor rutrum
-			arcu, eget blandit massa porta id. Nullam efficitur laoreet mauris, eu lobortis quam molestie et. Ut tellus nunc, convallis
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec est nec massa auctor pretium. Proin tempor rutrum arcu,
+			eget blandit massa porta id. Nullam efficitur laoreet mauris, eu lobortis quam molestie et. Ut tellus nunc, convallis
 			ac purus sit amet, aliquam pharetra mauris.
 		</p>
 
@@ -154,11 +151,12 @@
 						<i class="material-icons delete red-text text-darken-2">delete</i>
 					</span>
 	</li>
+
 
 </ul>
-<a class="center-align more">Plus de messages <br /><i class="material-icons">arrow_drop_down</i></a>
 
 
+<a class=""><i class="material-icons">more_horiz</i></a>
 
 </div>
 <!-- end liste -->
@@ -174,11 +172,12 @@
 			<div class="input-field col s11">
 				<i class="material-icons prefix">textsms</i>
 				<textarea id="textarea1" class="materialize-textarea"></textarea>
+				<input type="text" id="autocomplete-input" class="autocomplete">
 				<label for="autocomplete-input">Autocomplete</label>
 			</div>
 
 			<div class="input-field col s1">
-				<button type="button" class="btn-floating btn-large waves-effect waves-light cyan pulse"><i class="material-icons">send</i></button>
+				<button type="button" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">send</i></button>
 
 			</div>
 		</div>

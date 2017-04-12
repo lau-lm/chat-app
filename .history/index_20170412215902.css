@@ -56,10 +56,3 @@
 #liste .collection .collection-item:hover{
 	background-color: #efefef; 
 }
-.more{
-	width: 300px;
-    margin: 0 auto;
-    display: block;
-}
-.more .material-icons{
-}

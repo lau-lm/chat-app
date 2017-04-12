@@ -36,30 +36,9 @@
     font-size: 20px;
 	padding: 5px;
 	background-color: #ea5d63;
-	display: block;
+	    display: block;
      height: 100%;
     margin: 0 auto;
     width: 232px;
     text-align: left;
-	    line-height: 61px;
-}
-.nav-wrapper .badge .material-icons{
-	float: left;
-	margin-right: 7px;
-}
-#liste .collection .collection-item{
-	-webkit-transition: background-color .3s ease-in;
-    -moz-transition: background-color .3s ease-in;
-    -o-transition: background-color .3s ease-in;
-    transition: background-color .3s ease-in;
-}
-#liste .collection .collection-item:hover{
-	background-color: #efefef; 
-}
-.more{
-	width: 300px;
-    margin: 0 auto;
-    display: block;
-}
-.more .material-icons{
 }
