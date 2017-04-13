@@ -1,6 +1,5 @@
 console.log("If so powerful you are...Why leave?");
 
-
 // Your code here...
 
 

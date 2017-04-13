@@ -1,0 +1,29 @@
+{
+	"messages": [
+		{
+			"id": 1,
+			"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim mi sit amet neque suscipit, in aliquam felis placerat. Mauris semper elementum lacus, sit amet finibus augue dapibus nec",
+			"created": "Il y a 3 minutes"
+		},
+		{
+			"id": 2,
+			"content": "Praesent volutpat rutrum dui eget ultricies. Integer quis erat ac lacus cursus fringilla. Suspendisse quis tincidunt dui",
+			"created": "Il y a 10 minutes"
+		},
+		{
+			"id": 3,
+			"content": "Quisque mauris odio, dignissim id neque sed, pretium maximus tellus. Maecenas venenatis congue magna, nec malesuada dui posuere at",
+			"created": "Il y a 1 heure"
+		},
+		{
+			"id": 4,
+			"content": "Sed nisi purus, lobortis eu sagittis ut, elementum et ante. Phasellus vehicula nisl pulvinar lectus tristique, vel vulputate dui cursus. Praesent a nibh ac nibh sagittis laoreet nec vel nibh. ",
+			"created": "Il y a 2 heures"
+		},
+		{
+			"id": 5,
+			"content": "Ut varius a lacus et egestas. Integer laoreet elit nec eros accumsan semper. Proin molestie mi eros. Ut luctus, neque sed efficitur aliquam, ipsum est fringilla neque",
+			"created": "Il y a 3 heures"
+		}
+	]
+}
