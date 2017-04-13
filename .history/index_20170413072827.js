@@ -45,7 +45,19 @@ $('<audio id="chatAudio"><source src="sound/notify.wav" type="audio/wav"></audio
 $('#chatAudio')[0].play();
 
 
+window.addEventListener('load', function () {
+    Notification.requestPermission(function (status) {
+        // Cela permet d'utiliser Notification.permission avec Chrome/Safari
+        if (Notification.permission !== status) {
+            Notification.permission = status;
+        }
+    });
+});
 
+var n = new Notification("Salut!");
+n.onshow = function () {
+    setTimeout(n.close.bind(n), 5000);
+}
 
 
 /**

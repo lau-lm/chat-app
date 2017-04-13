@@ -44,10 +44,6 @@ $('#favorites').modal(); // modal for favorites
 $('<audio id="chatAudio"><source src="sound/notify.wav" type="audio/wav"></audio>').appendTo('body');
 $('#chatAudio')[0].play();
 
-
-
-
-
 /**
  * Ne Pas Toucher
  */

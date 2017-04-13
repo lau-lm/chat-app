@@ -2,9 +2,6 @@
 	font-size:12px;
 	color: grey;
 }
-#liste ul li{
-	opacity: 0
-}
 #liste::-webkit-scrollbar {
 	width: 12px;
 }

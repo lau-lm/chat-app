@@ -45,7 +45,22 @@ $('<audio id="chatAudio"><source src="sound/notify.wav" type="audio/wav"></audio
 $('#chatAudio')[0].play();
 
 
+window.addEventListener('load', function () {
+    // Premièrement, vérifions que nous avons la permission de publier des notifications. Si ce n'est pas le cas, demandons la
+    if (window.Notification && Notification.permission !== "granted") {
+        Notification.requestPermission(function (status) {
+            if (Notification.permission !== status) {
+                Notification.permission = status;
+            }
+        });
+    }
 
+
+
+    var n = new Notification("Salut!");
+    n.onshow = function () {
+        setTimeout(n.close.bind(n), 5000);
+    }
 
 
 /**
