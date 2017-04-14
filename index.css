@@ -2,9 +2,9 @@
 	font-size:12px;
 	color: grey;
 }
-#liste ul li{
+/*#liste ul li{
 	opacity: 0
-}
+}*/
 
 /*#liste::-webkit-scrollbar {
 	width: 12px;
@@ -40,7 +40,8 @@
 	display: block;
      height: 100%;
     margin: 0 auto;
-    width: 232px;
+    min-width: 232px;
+		width: auto;
     text-align: left;
 	    line-height: 61px;
 }
@@ -64,4 +65,12 @@
 	cursor: pointer;
 }
 .more .material-icons{
+}
+
+.isLiked {
+	background-color: lightpink;
+}
+
+.wilder {
+	background-color: gold;
 }
