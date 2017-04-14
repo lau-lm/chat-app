@@ -45,7 +45,8 @@
 				<div class="row">
 					<div class="input-field">
 						<input required pattern=".{3,}" id="first_name" type="text" class="validate">
-						<label data-error="Pas assez long..." for="first_name">Rechercher un message par mot-clé</label>
+						<label for="first_name">Rechercher un message par mot-clé</label>
+						<i class="material-icons suffix">account_circle</i>
 					</div>
 				</div>
 			</form>
@@ -166,7 +167,7 @@
 		<div class="row">
 			<div class="input-field col s11">
 				<i class="material-icons prefix">textsms</i>
-				<textarea id="autocomplete-input" pattern=".{3,}" required class="materialize-textarea" data-length="500" maxlength="500"></textarea>
+				<textarea id="autocomplete-input" class="materialize-textarea" data-length="500" maxlength="500"></textarea>
 				<label for="autocomplete-input">Autocomplete</label>
 			</div>
 
