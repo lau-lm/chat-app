@@ -35,31 +35,7 @@ let app = new Vue({
 
 
 
-		// Bonus 2 non fonctionnel : Les regex fonctionnent, mais la class ne se met pas.
 
-		containWilder: function () {
-			// console.log('coucou');
-
-			let regexWild = new RegExp(/wild code school/i)
-			let regexVue = new RegExp(/vuejs/i)
-			let regexNode = new RegExp(/nodejs/i)
-
-			this.messages.forEach(function (element) {
-				// console.log(element.content);
-				if (regexWild.test(element.content) ||
-					regexVue.test(element.content) ||
-					regexNode.test(element.content)
-				) {
-					console.log('un élément contient un des regex');
-					this.containWilder = true;
-					console.log(this.containWilder)
-					// return true;
-				} else {
-					return false;
-				}
-			});
-
-		}
 	},
 	watch: {
 		messages: function () {
@@ -68,6 +44,26 @@ let app = new Vue({
 		}
 	},
 	methods: {
+		// Bonus 2 non fonctionnel : Les regex fonctionnent, mais la class ne se met pas.
+
+		containWilder: function (text) {
+			// console.log('coucou');
+
+			let regexWild = new RegExp(/wild code school/i)
+			let regexVue = new RegExp(/vuejs/i)
+			let regexNode = new RegExp(/nodejs/i)
+
+			// console.log(element.content);
+			if (regexWild.test(text) ||
+				regexVue.test(text) ||
+				regexNode.test(text)
+			) {
+				return true;
+			} else {
+				return false;
+			}
+
+		},
 		supprimer: function (message) {
 			let position = this.messages.indexOf(message);
 			this.messages.splice(position, 1);

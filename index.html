@@ -72,7 +72,7 @@
 						<span class="date">Le 16/03/2017 à 12h30</span>
 
 						<!-- Contenu -->
-						<p :class="{isLiked: messagesLiked.indexOf(message.id) != -1, wilder: containWilder}">
+						<p :class="{isLiked: messagesLiked.indexOf(message.id) != -1, wilder: containWilder(message.content)}">
 							{{message.content}}
 						</p>
 
